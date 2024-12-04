@@ -12,7 +12,7 @@ clone this repo
 git clone git@github.com:GakuruAlex/grocery_list.git
 ```
 
-change directory to nutrition
+change directory to grocery_list
 
 ```bash
     cd grocery_list

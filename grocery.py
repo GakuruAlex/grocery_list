@@ -10,6 +10,7 @@ class Grocery:
 
         Returns:
             dict: _dictionary of item and count of the item_
+        
         Example:
             Starting with empty dict
             >>> add_grocery_item("tomato")
@@ -24,14 +25,17 @@ class Grocery:
             self.grocery_dict[item] = 1
    
     def print_grocery_items(self)-> dict:
-        """_Print grocery items begining with count then the item_
-
-        Returns:
-            dict: _for the benefit of pytest_
+        """_Print grocery items begining with count then the item sorted in alphabetic order_
+        
+            Example:
+                For the dict {"tomato":3, "apple":4}
+                >>> print_grocery_list()
+                    4 APPLE
+                    3 TOMATO
         """
-        for item, count in self.grocery_dict.items():
+        for item, count in sorted(self.grocery_dict.items()):
             print(f"{count} {item.upper()}")
-        return self.grocery_dict
+
     def main(self):
         while True:
             try:

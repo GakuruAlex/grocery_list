@@ -20,9 +20,9 @@ class Grocery:
         """
         if item in self.grocery_dict:
             self.grocery_dict[item] += 1
-            return self.grocery_dict
         else:
             self.grocery_dict[item] = 1
+        return self.grocery_dict
    
     def print_grocery_items(self)-> dict:
         """_Print grocery items begining with count then the item sorted in alphabetic order_

@@ -24,6 +24,11 @@ class Grocery:
             self.grocery_dict[item] = 1
    
     def print_grocery_items(self)-> dict:
+        """_Print grocery items begining with count then the item_
+
+        Returns:
+            dict: _for the benefit of pytest_
+        """
         for item, count in self.grocery_dict.items():
             print(f"{count} {item.upper()}")
         return self.grocery_dict

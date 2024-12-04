@@ -1,4 +1,4 @@
-# Felipe's Taqueria #
+# Grocery List #
 
 CS50's Introduction to Programming with Python Problem Set 3 on Exceptions
 Grocery List problem.
